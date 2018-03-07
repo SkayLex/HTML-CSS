@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+   body {
+     background-color: #444;
+     margin: 0;
+    }
+
+   ul {
+     background-color: #333;
+     margin: 0;
+     list-style:none;
+     padding:0;
+     width:200px;
+     border-right:50px solid #666;
+     transform:translateX(-200px);
+
+    }
+    ul:hover{
+      transform:translateX(0);
+      transition:0.5s;
+    }
+    a {
+      text-decoration:none;
+      color:#fff;
+    }
+    li{
+      padding:20px;
+      border-bottom:1px solid #222;
+      border-right: 1px solid #222;
+
+
+    }
+    li:hover{
+      background-color:#555;
+    }
+     #last{
+       border-bottom:none;
+     }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="">twitter</a></li>
+  <li><a href="">about</a></li>
+  <li><a href="">services</a></li>
+  <li><a href="">online</a></li>
+  <li id="last"><a href="">source</a></li>
+</ul>
+
+
+</body>
+</html>

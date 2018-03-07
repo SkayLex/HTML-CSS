@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+   body{
+    background-color: #444;
+    margin-top:110px;
+
+
+   }
+
+   p {
+     margin:0;
+     text-align: center;
+     height:50px;
+
+
+
+   }
+    img{
+      border:6px solid aqua;
+      width: 250px;
+
+
+    }
+    #foto{
+      transform:rotate(15deg) scale(1.5) translateX(50px);
+      box-shadow: 0 0 10px 2px yellow;
+        
+    }
+    .img1{
+      transform:rotate(-35deg);
+      box_shadow: 0 0 10px 2px darkgreen;
+    }
+    .pic{
+      transform:rotate(50deg);
+      box-shadow:0 0 10px 2px red;
+    }
+    img:hover{
+      border-color:yellow;
+      transform:scale(2) rotate(3600deg) !important;
+      transition:0.5s;
+    }
+
+  </style>
+</head>
+<body>
+  <p>
+    <img id="foto" src="1.jpg">
+    <img class="img1" src="2.jpg">
+  </p>
+  <p>
+    <img class="pic"src="3.jpeg">
+  </p>
+  <p>
+    <img class="img1" src="4.jpg">
+    <img class="pic" src="5.png">
+  </p>
+</body>
+</html>
