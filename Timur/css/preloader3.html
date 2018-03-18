@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body{
+    background-color: red;
+  }
+  #circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff transparent;
+    margin-left: 30px;
+    margin-top:30px;
+    background-color:#aaa ;
+    animation: circ 3s alternate-reverse infinite;
+
+  }
+  .ball{
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 28px;
+    animation: rota 3s reverse infinite;
+    position:relative;
+  }
+#circle:before{
+  color:yellow;
+  position:absolute;
+  width: 50px;
+  height: 50px;
+
+}
+
+  @keyframes rota{
+    0%   {top: 0; left: 0px; }
+    25%  {top: 0px; left: 53px; }
+    50%  {top: -57px; left: 53px; }
+    75%  {top: -57px; left: 0px; }
+    100% {top: 0px; left: 0px; }
+  }
+  @keyframes circ{
+    from{opacity:1;}
+      to{opacity:0.2;}
+  }
+</style>
+</head>
+<body>
+  <div id="circle">
+      </div>
+      <div class="ball">
+      </div>
+</body>
+</html>
