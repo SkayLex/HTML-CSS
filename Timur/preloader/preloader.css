@@ -1,0 +1,56 @@
+body{
+  background-color: white;
+}
+#preloader{
+  width: 200px;
+  height: 200px;
+
+
+}
+#preloader>.big{
+  width: 160px;
+  height: 160px;
+  border:5px solid #444;
+ transform:translateX(15px) translateY(15px);
+ border-left-color: #fff;
+ border-right-color:#fff;
+ border-radius:100%;
+ animation:bigg 2s alternate-reverse infinite linear ;
+}
+#preloader .small{
+  width: 90px;
+  height: 90px;
+  border:5px solid #666;
+  transform:translateX(12.5px) translateY(12.5px);
+  border-radius:100%;
+  border-left-color: #fff;
+  border-right-color:#fff;
+  animation:num 2s infinite;
+}
+#preloader .medium{
+  border:5px solid #888;
+  width: 130px;
+  height:130px;
+  transform:translateX(12.5px) translateY(12.5px);
+  border-radius:100%;
+  border-bottom:#fff;
+  border-top:#fff;
+  animation:lol 2s infinite;
+}
+@keyframes rot{
+  from{}
+    to{}
+
+  }
+@keyframes bigg{
+  from{transform:rotate(0)}
+    to{transform:rotate(360deg)}
+}
+@keyframes lol{
+  from{transform:rotate(30deg)}
+    to{transform:rotate(-360deg)}
+  }
+    @keyframes num{
+      from{transform:rotate(60deg)}
+        to{transform:rotate(180deg)}
+      }
