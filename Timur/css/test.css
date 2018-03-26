@@ -1,0 +1,85 @@
+#statusbar{
+  width: 400px;
+  height: 20px;
+  background-color: #aaa;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom:2px solid red;
+
+
+}
+.wifi{
+  width: 2px;
+  height: 8px;
+  background-color: #000;
+  margin-top:12px;
+  transform:translateY(6px);
+
+}
+.line{
+  width: 2px;
+  height: 10px;
+  background-color: #000;
+  transform:translateY(4px);
+}
+.line2{
+  width: 2px;
+  height: 12px;
+  background-color: #000;
+  transform:translateY(2px);
+}
+.line3{
+  width: 2px;
+  height: 14px;
+  background-color: #000;
+}
+#statusbar>div{
+  float:left;
+  margin:2px;
+  padding:2px;
+}
+#multipl{
+  width: 22px;
+  height:14px;
+  border:1px solid #000;
+ transform:translateX(260px) translateY(-2px);
+
+
+}
+#multipl>div{
+  width: 3px;
+  height: 13px;
+  background-color: #000;
+  margin:1px;
+  float:right;
+  transform:translateY(-1px);
+  animation:bat 3s infinite;
+
+
+
+}
+.patrat{
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  transform:translateX(265px) translateY(5px);
+}
+.time{
+  transform:translateX(220px)
+}
+.procent{
+  transform:translateX(188px);
+}
+#multipl>div:first-child{
+  animation-delay:1s;
+}
+#multipl>div:nth-child(2){
+  animation-delay:2s;
+}
+#multipl>div:last-child{
+  animation-delay:3s;
+}
+@keyframes bat{
+  from{opacity:1}
+    to{opacity:0}
+}
