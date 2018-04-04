@@ -1,0 +1,56 @@
+#oskar div,#oskar figcaption,#oskar{
+  width: 480px;
+  height: 360px;
+}
+img{
+  width: 480px;
+  height: 360px;
+}
+#oskar figcaption{
+  transform:translateY(-360px);
+  background:linear-gradient(rgba(50,50,70,0.75),rgba(50,70,50,0.75),rgba(70,50,50,0.75));
+}
+h2{
+  color:#fff;
+  text-align: center;
+  margin:0;
+  font-size: 35px;
+  transform:translateY(165px);
+  transition:0.4s;
+}
+
+body{
+  background-color: #333;
+  font-family:arial;
+}
+#oskar h2 span{
+  font-weight:100;
+
+}
+#oskar:hover figcaption{
+  background:linear-gradient(rgba(60,70,100,0.5),rgba(60,100,70,0.5),rgba(100,60,70,0.5));
+}
+#oskar:hover h2{
+  transform:translateY(135px);
+}
+#oskar p{
+  border:2px solid #fff;
+  color:#fff;
+  width: 420px;
+  height: 300px;
+  transform:translateX(30px) translateY(-30px) scale(0);
+}
+#oskar:hover p{
+  transform:translateX(30px) translateY(-30px) scale(1);
+  transition:0.5s;
+}
+#oskar img{
+  transform:scale(1.1);
+}
+#oskar:hover img{
+  transform:scale(1);
+  transition:0.5s;
+}
+#oskar{
+  overflow:hidden;
+}

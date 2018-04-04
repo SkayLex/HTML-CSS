@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #222;
+    }
+      form{
+        background-color:#a06326;
+        padding:30px;
+      }
+      .pad{
+        padding: 5px;
+
+      }
+      input{
+        border-radius: 100px 0 0 100px;
+        width: 150px;
+        transition: 1s;
+
+      }
+      button{
+        border-radius: 0 100px 100px 0;
+        background-color:#a04a26;
+        border:1px solid white;
+        color:#fff;
+      }
+      input:focus{
+          width: 300px;
+          outline:none;
+      }
+      button::before{
+          content:"[";
+          color:#699;
+      }
+      button::after{
+          content:"]";
+          color:#699;
+      }
+      button:hover{
+        background-color: #777;
+      }
+
+  </style>
+</head>
+<body>
+  <form action="">
+    <input class="pad" type="text">
+    <button class="pad">
+      go
+    </button>
+  </form>
+
+</body>
+</html>
