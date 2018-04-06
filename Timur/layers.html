@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #222;
+      margin: 0;
+    }
+    #fan .slice{
+      background-color: #444;
+      color: #999;
+      position: absolute;
+      padding: 30px;
+      width: 800px;
+      height: 70px;
+      border-radius: 50% 50px 50px 50% ;
+      top:50%;
+      left:50%;
+      margin-top: -60px;
+      margin-left: -430px;
+      transform:rotate(0);
+
+    }
+    #fan h2,
+    #fan p{
+      margin: 0;
+    }
+  #fan  p{
+      text-align: right;
+      text-decoration: underline;
+      font-style: italic;
+      font-size: 15;
+      padding-top: 40px;
+    }
+    #fan h2{
+      font-size: 20;
+      color:#fff;
+      padding-left:35px;
+      text-align: right;
+    }
+    #fan h2::before{
+      content: "\275D";
+      font-size:30px;
+      padding-right: 5px;
+      color:#bbb;
+    }
+    #fan h2::after{
+      content: "\275E";
+      font-size: 30px;
+      padding-left:5px;
+      color:#bbb;
+    }
+    #fan .slice::before{
+      content: "\25EF";
+      position: absolute;
+      font-size: 20px;
+     top:47px;
+     background-color: #000;
+     border-radius:100%;
+     box-shadow:inset 0 0 5px 2px  red;
+     }
+     /*ниже эффекты*/
+     #fan .slice:nth-child(1){
+
+       background-color:#303030;
+     }
+     #fan.slice:nth-child(2){
+
+       background-color:#353535;
+     }
+     #fan.slice:nth-child(3){
+
+       background-color:#505050;
+     }
+     #fan .slice:nth-child(4){
+
+       background-color:#555555;
+     }
+     #fan .slice:nth-child(5){
+
+       background-color:#656565;
+     }
+     #fan.slice:nth-child(6){
+
+       background-color:#747474;
+     }
+     #fan.slice:nth-child(7){
+
+       background-color:#808080;
+     }
+     #fan .slice:nth-child(8){
+
+       background-color:#858585;
+     }
+     #fan.slice:nth-child(9){
+
+       background-color:#909090;
+     }
+     #fan .slice:nth-child(10){
+
+       background-color:#959595;
+     }
+     #fan .slice:nth-child(11){
+
+       background-color: #aaaaaa;
+     }
+     #fan .slice:nth-child(12){
+
+       background-color: #bbbbbb;
+     }
+     #fan .slice{
+       box-shadow: 5px 8px #888888;
+       transform-origin:50px 65px;
+       transition:1s;
+     }
+     #fan:hover .slice:nth-child(1){
+       transform:rotate(-60deg);
+
+     }
+     #fan:hover .slice:nth-child(2){
+       transform:rotate(-50deg);
+
+     }
+     #fan:hover .slice:nth-child(3){
+       transform:rotate(-40deg);
+
+     }
+     #fan:hover .slice:nth-child(4){
+       transform:rotate(-30deg);
+
+     }
+     #fan:hover .slice:nth-child(5){
+       transform:rotate(-20deg);
+
+     }
+     #fan:hover .slice:nth-child(6){
+       transform:rotate(-10deg);
+
+     }
+     #fan:hover .slice:nth-child(7){
+       transform:rotate(0deg);
+
+     }
+     #fan:hover .slice:nth-child(8){
+       transform:rotate(10deg);
+
+     }
+     #fan:hover .slice:nth-child(9){
+       transform:rotate(20deg);
+
+     }
+     #fan:hover .slice:nth-child(10){
+       transform:rotate(30deg);
+
+     }
+     #fan:hover .slice:nth-child(11){
+       transform:rotate(40deg);
+
+     }
+     #fan:hover .slice:nth-child(12){
+       transform:rotate(50deg);
+
+     }
+
+
+
+  </style>
+</head>
+<body>
+  <div id="fan">
+    <div class="slice">
+      <h2>Lorem ipsum dolor.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    </div>
+    <div class="slice">
+      <h2>Iure fugit, magnam.</h2>
+      <p>Nemo repellat fugit, quaerat quis alias quas.</p>
+    </div>
+    <div class="slice">
+      <h2>Beatae, quam, excepturi!</h2>
+      <p>Explicabo tempora, ipsum eveniet porro voluptatem mollitia.</p>
+    </div>
+    <div class="slice">
+      <h2>Earum, dolor, repellendus.</h2>
+      <p>Cupiditate cumque veritatis animi, delectus aut voluptatibus!</p>
+    </div>
+    <div class="slice">
+      <h2>Aliquid, facilis, nesciunt!</h2>
+      <p>Eos excepturi praesentium laudantium pariatur non quia!</p>
+    </div>
+    <div class="slice">
+      <h2>Quaerat, nostrum ipsum.</h2>
+      <p>Autem magni veritatis doloribus consectetur eveniet ut.</p>
+    </div>
+    <div class="slice">
+      <h2>Perspiciatis, harum unde.</h2>
+      <p>Impedit porro, repellat sed autem, esse laborum.</p>
+    </div>
+    <div class="slice">
+      <h2>Debitis unde, eius.</h2>
+      <p>Vel, nisi fugiat temporibus sequi illo rem!</p>
+    </div>
+    <div class="slice">
+      <h2>Fuga, recusandae, velit.</h2>
+      <p>Laborum natus, modi est dolor aperiam commodi!</p>
+    </div>
+    <div class="slice">
+      <h2>Inventore, eos, repellendus.</h2>
+      <p>Quaerat officia vitae dolore doloremque repudiandae facilis.</p>
+    </div>
+    <div class="slice">
+      <h2>Adipisci laudantium, deleniti?</h2>
+      <p>Aliquid repellendus dolor labore hic laudantium sequi?</p>
+    </div>
+    <div class="slice">
+      <h2>Reiciendis, sint, perferendis?</h2>
+      <p>Reiciendis ducimus sit impedit, aut ab libero.</p>
+    </div>
+  </div>
+</body>
+</html>
