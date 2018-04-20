@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+  <title>Document</title>
+  <style>
+body{
+  background-color: #000;
+}
+a{
+  color:red;
+}
+nav>ul>li{
+  width: 300px;
+  height: 300px;
+  background-color:#777;
+  position: absolute;
+ transform-origin: 0 0;
+
+ overflow:hidden;
+ top:150px;
+ left:150px;
+
+}
+nav>ul>li>a{
+  width: 300px;
+  height: 300px;
+  display:block;
+  background-image:radial-gradient(aqua,white 90%,black 95%);
+  border-radius: 100%;
+  position: absolute;
+  top:-150px;
+  left:-150px;
+  transform:skew(-45deg);
+}
+nav{
+  position: relative;
+  top:300px;
+  left:300px;
+}
+nav ul{
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  overflow:hidden;
+  position: absolute;
+  border-radius: 100%;
+}
+nav li:nth-child(1){
+transform: rotate(0deg) skew(45deg);
+}
+nav li:nth-child(2){
+transform: rotate(45deg) skew(45deg);
+}
+nav li:nth-child(3){
+transform: rotate(90deg) skew(45deg);
+}
+nav li:nth-child(4){
+transform: rotate(135deg) skew(45deg);
+}
+nav li:nth-child(5){
+transform: rotate(180deg) skew(45deg);
+}
+nav li:nth-child(6){
+transform: rotate(225deg) skew(45deg);
+}
+nav li:nth-child(7){
+transform: rotate(270deg) skew(45deg);
+}
+nav li:nth-child(8){
+transform:rotate(315deg) skew(45deg);
+}
+nav a:hover{
+background-image:radial-gradient(red,aqua,black);
+
+}
+nav a i{
+  position: absolute;
+  top:190px;
+  left:260px;
+}
+nav li i:nth-child(1){
+  transform:rotate();
+}
+nav li:nth-child(2) i{
+  transform:rotate(-45deg);
+}
+nav li:nth-child(3) i{
+    transform:rotate(-90deg);
+}
+nav li:nth-child(4) i{
+  transform:rotate(-135deg);
+}
+nav li:nth-child(5) i{
+  transform:rotate(-180deg);
+}
+nav li:nth-child(6) i{
+  transform:rotate(-225deg);
+}
+nav li:nth-child(7) i{
+    transform:rotate(-270deg);
+}
+nav:nth-child(8) i{
+   transform:rotate(-315deg);
+}
+nav ul::after{
+  content:"\f2e0";
+  position: absolute;
+  top:70px;
+  left:70px;
+  color:red;
+  width: 160px;
+  height: 160px;
+  background-color:#fff;
+  border-radius: 100%;
+  display:block;
+  text-align: center;
+  line-height: 160px;
+  font-family: "fontawesome";
+  font-size: 60px;
+  box-shadow: 0 0 5px 3px red;
+  text-shadow: 0 0 5px blue;
+}
+nav ul:target::after{
+  color:yellow;
+}
+
+  </style>
+</head>
+<body>
+<nav>
+  <ul id="menu">
+    <li><a href=""><i class="fa fa-volume-up" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-comment" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-plane" aria-hidden="true"></i></a></li>
+    <li><a href="#menu"><i class="fa fa-bluetooth-b" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+  </ul>
+</nav>
+</body>
+</html>

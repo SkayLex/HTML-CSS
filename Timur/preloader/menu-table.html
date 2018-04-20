@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <title>Table</title>
+<style>
+body{
+  background-color: #78b1eb;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color:#78b1eb;
+  font-size: 18px;
+
+}
+li{
+  list-style: none;
+  background-color: #fff;
+  padding:20px;
+  display:table-cell;
+  vertical-align: middle;
+
+}
+ul{
+  margin:0;
+  padding:0;
+  width: 100%;
+  display:table-row;
+}
+nav{
+display:table;
+width: 96%;
+margin-left: 2%;
+margin-top:35px;
+}
+li:last-child{
+  background-color:#5281bd;
+  width: 40px;
+  position: relative;
+}
+span{
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  display:block;
+  margin:5px;
+}
+li:last-child::before{
+  content: "3";
+  background-color:#78b1eb;
+  position: absolute;
+  border-radius: 100%;
+  border:3px solid white;
+  display:block;
+  width: 35px;
+  height: 35px;
+  right:65px;
+  line-height:33px;
+  text-align: center;
+  color:#fff;
+  top:17px;
+
+
+
+}
+</style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="">Lorem</a></li>
+      <li><a href="">ipsum</a></li>
+      <li><a href="">dolor</a></li>
+      <li><a href="">sit</a></li>
+      <li><a href="">amet</a></li>
+      <li><a href="">consectetur</a></li>
+      <li><a href="">adipisicing</a></li>
+      <li><a href="">
+      <span></span>
+      <span></span>
+      <span></span></a></li>
+    </ul>
+  </nav>
+</body>
+</html>
