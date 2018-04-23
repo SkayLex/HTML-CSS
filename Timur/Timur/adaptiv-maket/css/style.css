@@ -1,0 +1,42 @@
+/*глобальные стили*/
+body{
+  background-color: #000;
+}
+#profile{
+ border:1px solid #2ca;
+}
+
+/*стили для Пк*/
+#profile figure, #profile footer{
+  display: inline-block;
+  vertical-align: middle;
+}
+#profile{
+  width: 90%;
+  margin:5%;
+}
+#profile figure{
+  width: 40%;
+  margin:0;
+  background-color: red;
+}
+#profile footer{
+  width: 60%;
+  background-color: #999;
+
+}
+#profile figure img{
+  width: 100%;
+}
+li{
+  color: #fff;
+
+}
+/*Стили для Моб,Планшет*/
+@media screen and (max-width:600px){
+  #profile figure,
+  #profile footer{
+    display:block;
+    width: 100%;
+  }
+}
