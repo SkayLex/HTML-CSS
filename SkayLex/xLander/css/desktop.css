@@ -1,0 +1,141 @@
+nav{
+  padding-top:20px;
+  padding-bottom:20px;;
+}
+nav div{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+nav div:first-child{
+  width: 30%;
+  font-size: 40px;
+}
+nav div:last-child{
+  width: 70%;
+  text-align: right;
+}
+.container{
+  margin-left:8%;
+  margin-right: 8%;
+}
+nav div:last-child a{
+  margin-left:2.5%;
+}
+nav div:last-child a:hover{
+  color:yellow;
+}
+nav .fa-bars{
+  display:none;
+}
+nav div:last-child a:first-child{
+  display:none;
+}
+header iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+header::after{
+  content:"hello";
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-image: url(../img/grid.png);
+  z-index: -1;
+
+}
+.description{
+  display:table;
+  position: absolute;
+  top: 20%;
+  left: 7.5%;
+
+}
+.description h1{
+  display: block;
+  width: 652px;
+  height: 170px;
+  font-size: 75px;
+  font-weight: 800;
+  line-height: 85px;
+  text-transform: uppercase;
+  margin-top:0;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  color:#fff;
+}
+.description h2{
+  font-size: 33px;
+  margin-top:0;
+  color:#fff;
+}
+.description p{
+  margin-top: -15px;
+  font-size: 20px;
+  color:#fff;
+  font-weight: 300;
+}
+.button>a{
+  display:table;
+  padding-bottom:10px;
+  float:left;
+  width:168px;
+  background-color: #ffc400;
+  text-align: center;
+  color:#666;
+  padding-top:10px;
+  margin-right: 15px;
+  font-size: 14px;
+  border-radius:4px;
+  font-weight: 700;
+}
+.button a:last-child{
+  position: absolute;
+  left:1340px;
+  z-index: 1;
+  font-size: 15px;
+}
+.form{
+  position: absolute;
+  display:block;
+  background-color: rgba( 0, 0, 0, 0.55);
+  width: 380px;
+  height: 420px;
+  left:1380px;
+  top:21%;
+  border-radius:6px;
+}
+.form h2{
+  color:#fff;
+  margin-bottom:4px;
+  margin-left:13%;
+}
+input[type='text'], input[type='email'], input[type='phone']{
+  width: 325px;
+  height: 34px;
+  margin:10px;
+  margin-left:7%;
+  font-family: helvetica;
+}
+.form p{
+  display:block;
+  color:#fff;
+  margin-left:12%;
+  line-height: 20px;
+  margin-bottom:30px;
+}
+.form span{
+ margin-left:18%;
+}
+.button a:hover{
+  color:#fff;
+  background-color: #e2b211;
+  transition: .5s;
+}
