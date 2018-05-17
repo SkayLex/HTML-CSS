@@ -51,6 +51,9 @@ header::after{
   z-index: -1;
 
 }
+#adaptive{
+  width: 80%;
+}
 .description{
   display:table;
   position: absolute;
@@ -83,7 +86,7 @@ header::after{
   font-weight: 300;
 }
 .button>a{
-  display:table;
+  display:inline-block;
   padding-bottom:10px;
   float:left;
   width:168px;
@@ -97,8 +100,9 @@ header::after{
   font-weight: 700;
 }
 .button a:last-child{
+  width: 100%;
   position: absolute;
-  left:1340px;
+  left:205%;
   z-index: 1;
   font-size: 15px;
 }
@@ -108,7 +112,7 @@ header::after{
   background-color: rgba( 0, 0, 0, 0.55);
   width: 380px;
   height: 420px;
-  left:1380px;
+  left:72%;
   top:21%;
   border-radius:6px;
 }
@@ -125,6 +129,7 @@ input[type='text'], input[type='email'], input[type='phone']{
   font-family: helvetica;
 }
 .form p{
+  width: 100%;
   display:block;
   color:#fff;
   margin-left:12%;

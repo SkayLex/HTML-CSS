@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/ground.jpg);
+  background-size: 100%;
+}
+#main div{
+  position: relative;
+  display:inline-block;
+  width: 33%;
+  height: auto;
+  padding-left: 15px;
+  margin-left: 10%;
+  margin-top: 30px;
+  top:20%;
+}
+#main p{
+  color:#ccc;
+  font-size:20px;
+  font-weight: 300;
+  margin-top:0;
+}
+#main h2{
+  color:#fff;
+  margin-bottom:5px;
+  }
+#main i{
+  position:absolute;
+  font-size:60px;
+  color:#ffc400;
+}
+.fa-flask{
+  top:24.5%;
+  left:6%;
+
+}
+.fa-bars{
+  left:6%;
+  top:42%;
+}
+.fa-trophy{
+  left:6%;
+  top:60%;
+}
+.fa-wrench{
+  left:50%;
+  top:24.5%;
+}
+.fa-cogs{
+  left: 50%;
+  top: 42%;
+}
+.fa-life-ring{
+  left: 50%;
+  top: 60%;
+}

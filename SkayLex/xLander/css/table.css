@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  min-width: 450px;
+}
+#container{
+  width: 100%;
+  height: 900px;
+  background-color: #dddddd;
+}
+#container h1{
+  position: relative;
+  font-size:40px;
+  font-weight: 400;
+  letter-spacing:-2px;
+  top:50px;
+  left:33.5%;
+}
+#container h1:after{
+  display: block;
+  content:"";
+  width: 240px;
+  height: 2px;
+  background-color: #ffc400;
+  margin:15px auto;
+  position: relative;
+  right:37%;
+}
+ .table h3{
+  position: relative;
+  top:-80px;
+  left:42%;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.table{
+width: 90%;
+height: 100%;
+margin-left:5%;
+}
+.tab{
+  margin-right:6px;
+  width: 16%;
+  height: 70%;
+  background-color: #fff;
+  border:1px solid #222;
+  border-radius: 6px;
+  display:inline-block;
+  position: relative;
+  left:16%;
+  top:30px;
+}
+
+.block{
+  width: 100%;
+  height: 120px;
+  background-color: #dddddd;
+  margin-top:20px;
+  text-align: center;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  margin-bottom:0;
+}
+#container sup{
+  position: relative;
+  font-size: 30px;
+  top:-27px;
+}
+.advanced{
+  background-color: #ffc400;
+  color:#fff;
+}
+.coll{
+  background-color: #d9a701;
+}
+.color{
+  color:#000;
+}
+.tab h4{
+  display:block;
+  text-align: center;
+  line-height: 60px;
+  margin-top:20px;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+#container span{
+  font-weight: 700;
+  line-height: 120px;
+  font-size:80px;
+  letter-spacing: -2px;
+}
+#container sup{
+  position: relative;
+  line-height: 0;
+
+}
+#container ul{
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  top:-10px;
+}
+#container li{
+  text-align: center;
+  padding: 15px;
+  border-bottom:1px solid #666;
+  margin-right:30px;
+}
+#container a{
+  display:block;
+  margin-left:30%;
+  margin-top:30px;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  line-height:40px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color:#ffc400;
+  color:#222;
+}
+#container .silka{
+  background-color: #222;
+  color:#fff;
+}
+#container a:hover:not(.silka){
+  background-color:#d9a701;
+  transition: .5s;
+  color:#fff
+
+}
+#container .silka:hover{
+  background-color: #444;
+  transition: .5s;
+}
