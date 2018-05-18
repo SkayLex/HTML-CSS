@@ -1,0 +1,44 @@
+img{
+  width: 100%;
+}
+h3{
+  position: relative;
+  font-size: 30px;
+  left:210px;
+
+}
+p{
+  position: relative;
+  left:160px;
+  font-size: 20px;
+}
+.carousel-indicators div{
+ width: 25px;
+ height: 5px;
+ display:inline-block;
+ padding:5px;
+ border:3px solid grey;
+ border-radius:5px;
+position: relative;
+left:300px;
+ }
+.carousel-indicators .active{
+  padding:5px;
+  width: 25px;
+  height: 5px;
+}
+.carousel-control{
+  opacity:0;
+}
+.carousel-control:hover{
+  opacity:1;
+}
+.carousel:before{
+  content:"";
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC) repeat;
+z-index:10;
+display:block;
+}
