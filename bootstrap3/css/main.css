@@ -1,0 +1,113 @@
+
+#main{
+  position:absolute;
+  left:30%;
+  top:15%;
+background: linear-gradient(135deg, rgba(53,177,135,1) 0%, rgba(53,176,135,1) 1%, rgba(21,96,102,1) 100%);
+  width: 40%;
+  border:1px solid #ddd;
+  border-radius:4px 4px 0 0;
+}
+
+.nav-tabs{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom:none;
+  left:20%;
+  margin-top:30px;
+}
+.nav-tabs a{
+  text-decoration: none;
+	color: #666;
+  background-color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+  border:none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+     cursor: default;
+     border:none;
+    background-color: #fff;
+    color:#029f5b;
+    font-size:18px;
+    border-bottom:none;
+  }
+  .nav-tabs .active li:hover{
+    background-color: #fff;
+  }
+ hr{
+  width:80%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+clear: both;
+border: 0;
+height: 1px;
+background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+}
+.tab-content{
+  width: 100%;
+}
+.form-group{
+  width: 80%;
+  margin-left: 10%;
+  font-size:16px;
+}
+.tab-content input[type="text"],.tab-content input[type="email"],.tab-content input[type="password"]{
+  height: 45px;
+border: 1px solid #ddd;
+font-size: 16px;
+margin-top: 5px;
+-webkit-transition: all 0.1s linear;
+-moz-transition: all 0.1s linear;
+transition: all 0.1s linear;
+
+}
+.checkbox{
+  margin-top:30px;
+  text-align: center;
+  font-size: 16px;
+}
+.btn-primary{
+  background-color: #53A3CD;
+  border-color:#53A3CD;
+  width:30%;
+  height: 40px;
+  position: relative;
+  left:36%;
+  margin-top:5px;
+  margin-bottom:60px;
+}
+ .ForPass{
+  color:#fff;
+  text-decoration: none;
+  position: relative;
+  top:20px;
+  left:11%;
+  bottom:30px;
+  font-size: 16px;
+}
+.btn-register{
+  width: 26%;
+  height: 40px;
+  background-color:  #1CB94E;
+  border-color: #1CB94E;
+  position: relative;
+  left:38%;
+  margin-top:5px;
+  margin-bottom:25px;
+  color:#fff;
+}
+.btn-register:hover{
+  background-color: #1CA347;
+  border-color: #1CA347;
+  color:#fff;
+}
